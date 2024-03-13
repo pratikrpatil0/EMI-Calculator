@@ -1,0 +1,81 @@
+Errors and Strategy (Pratik Patil) :-
+
+
+Error 1: Consistency in Formulas:-
+
+	- Error Description: In the calculation of EMI, my formulas were not consistent during the first draft. It is a logical error on my side. I didn't convert the 
+   	years into the terms of months.
+ 	- Strategy: I converted the years into the proper months format by multiplying them by 12. So, all values should be counted in months.
+ 	
+
+Error 2: Wrong Data Types:-
+
+ 	- Error Description: In the calculation of EMI, I used the double data type for months. The calculations and the outputs are the same, but after thinking, I realized it should be in int.
+	- Strategy: I changed the data type to int, so my program should be more efficient and have fewer logical errors.
+	
+
+Error 3: Incorrect Formulas for EMI Calculation:-
+
+  	- Error Description: The initial formula used for EMI calculation was incorrect or inconsistent, leading to incorrect results. For example, my principal balance amount is giving me the wrong output.
+  	- Strategy: I reviewed and corrected the EMI calculation formula to ensure accuracy and consistency. I identified that I didn't position the minus sign properly in the formula.
+
+
+Error 4: Unconverted Interest Rate:-
+
+	- Error Description: The annual interest rate was not converted into a monthly rate, leading to incorrect interest calculations.
+	- Strategy: I divided the annual interest rate by 12 to obtain the correct monthly interest rate for precise calculations.
+
+
+Error 5: Missing Input Validation:-
+
+	- Error Description: The code lacked input validation, allowing for the possibility of invalid or unexpected inputs.
+	- Strategy: I implemented input validation to ensure that user inputs meet the required criteria, enhancing the program's robustness.
+
+
+Error 6: Incorrect Loop Conditions:-
+
+	- Error Description: Loop counters and conditions were set incorrectly, potentially causing issues in generating the repayment schedule.
+	- Strategy: I reviewed and adjusted the loop conditions to ensure they correctly iterate through the desired number of months.
+
+
+Error 7: Unformatted Output:-
+
+	- Error Description: The output was not properly formatted, making it challenging to read and interpret. I didn't use the newline character in the code, so my output is looking congested, and I cannot recognize which amount is what in the output.
+	- Strategy: I improved the output formatting to present results in a clear and organized manner.
+
+
+Error 11: Incorrect Currency Units:-
+
+	- Error Description: The code did not properly handle currency units or symbols, potentially causing confusion in the output.
+	- Strategy: I ensured that currency values were formatted consistently with appropriate symbols or notations for clarity.
+
+
+Error 12: Wrong Commands to Command Line:-
+
+	- Error Description: I gave the command "g++ -o emi.c" to Linux to get the output, which is incorrect.
+	- Strategy: I searched on the internet and found that I should use the "gcc -o test emi.c" command to compile the C code correctly. Also I need to mention the "-lm"
+which says that include maths library in the code. So, I can use the power function. 
+
+Error 13: Undefined Variable:-
+
+	- Error Description: In my code, I didn't define a variable properly.
+	- Strategy: In the error statement, I checked the line number and determined which variable was not defined. I reviewed and defined the variable and also initialized it properly in the defined scope.
+
+
+Error 15: Syntax Error:-
+
+	- Error Description: I got an error for missing a semicolon in the last lines.
+	- Strategy: I checked the syntax, and I easily identified that error.
+   
+   
+
+	Finally, I am done with my code!!!!!!!!!!
+
+	
+		
+
+	
+	
+
+
+	
